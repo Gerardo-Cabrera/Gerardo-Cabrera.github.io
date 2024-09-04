@@ -4,12 +4,12 @@ let myWheel = new Winwheel({
   numSegments: 6,
   outerRadius: 200,
   segments: [
-    { fillStyle: "#f1c40f", text: "Viaje" },
-    { fillStyle: "#8e44ad", text: "Televisor" },
-    { fillStyle: "#2ecc71", text: "Laptop" },
-    { fillStyle: "#e67e22", text: "Bicicleta" },
-    { fillStyle: "#e74c3c", text: "Cena para dos" },
-    { fillStyle: "#3f3ab1", text: "Vale de compras" },
+    { fillStyle: "#3f3ab1", text: "Pañales" },
+    { fillStyle: "#8e44ad", text: "Toallitas" },
+    { fillStyle: "#2ecc71", text: "Tetero" },
+    //{ fillStyle: "#f1c40f", text: "Viaje" },
+    //{ fillStyle: "#e67e22", text: "Bicicleta" },
+    //{ fillStyle: "#e74c3c", text: "Cena para dos" },
   ],
   animation: {
     type: "spinToStop",
