@@ -7,9 +7,9 @@ let myWheel = new Winwheel({
     { fillStyle: "#3f3ab1", text: "Pañales" },
     { fillStyle: "#8e44ad", text: "Toallitas" },
     { fillStyle: "#2ecc71", text: "Tetero" },
-    //{ fillStyle: "#f1c40f", text: "Viaje" },
-    //{ fillStyle: "#e67e22", text: "Bicicleta" },
-    //{ fillStyle: "#e74c3c", text: "Cena para dos" },
+    { fillStyle: "#f1c40f", text: "Babero" },
+    { fillStyle: "#e67e22", text: "Cocoliso" },
+    { fillStyle: "#e74c3c", text: "Semanario" },
   ],
   animation: {
     type: "spinToStop",
@@ -42,7 +42,7 @@ function mostrarGanador() {
   let segment = myWheel.getIndicatedSegment();
   document.getElementById(
     "resultado-final"
-  ).textContent = `¡El ganador es: ${segment.text}!`;
+  ).textContent = `¡Te toca regalar: ${segment.text}!`;
   document.getElementById("girar").disabled = true; // Deshabilitar botón después del giro
   localStorage.setItem("ruletaGirada", "true"); // Guardar en localStorage
   myWheel.stopAnimation(false);
